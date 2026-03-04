@@ -26,6 +26,6 @@ Comprobación de funcionamiento: `docker run hello-world`
 
 ## 4. Creación de Red Personalizada
 Se generó una red *bridge* aislada para la comunicación interna de los futuros contenedores:
-`docker network create mi_red_proyecto`
+`docker network create red_proyecto`
 
 Comprobación: `docker network ls`
